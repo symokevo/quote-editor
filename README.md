@@ -16,13 +16,13 @@ This repository is about a short introduction to HOTWIRE (a combination of Turbo
 
 ## Creating the Project
 
-* Run
+* Run <br>
   `rails new quote-editor --css=sass --javascript=esbuild --database=postresql`
 
-* Install the dependencies and create the database
+* Install the dependencies and create the database <br>
   `bin/setup`
 
-* Initiate scripts that compile css and javascript then start the server:
+* Initiate scripts that compile css and javascript then start the server: <br>
   `bin/dev`
 
 * ...
