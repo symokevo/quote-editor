@@ -1,24 +1,28 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repository is about a short introduction to HOTWIRE (a combination of Turbo and Stimulus)
 
-Things you may want to cover:
+## Ensure you have the following:
 
-* Ruby version
+* Ruby version: 3 or higher
 
-* System dependencies
+* Ruby on Rails 7 or higher
 
-* Configuration
+* Postgres Database 
 
-* Database creation
+* Nodejs LTS
 
-* Database initialization
+* npm or yarn
 
-* How to run the test suite
+## Creating the Project
 
-* Services (job queues, cache servers, search engines, etc.)
+* Run
+  `rails new quote-editor --css=sass --javascript=esbuild --database=postresql`
 
-* Deployment instructions
+* Install the dependencies and create the database
+  `bin/setup`
+
+* Initiate scripts that compile css and javascript then start the server:
+  `bin/dev`
 
 * ...
