@@ -1,0 +1,15 @@
+Create the project:
+    rails new name_of_the_project --css=sass --javascript=esbuild --database=postresql
+
+Add tarbo-rails:
+    gem "turbo-rails"
+
+Install the dependencies and create the database
+    bin/setup
+
+Run the rails server and the scripts that precompile the css and javascript code
+    bin/dev
+
+Preparing the application for system testing:
+    bin/rails generate system_test quote
+    
