@@ -12,4 +12,13 @@ Run the rails server and the scripts that precompile the css and javascript code
 
 Preparing the application for system testing:
     bin/rails generate system_test quote
-    
+
+Running the tests:
+    bin/rails test:system
+
+Create the Quote model
+    rails generate model Quote name:string
+    bin/rials db:migrate
+
+Quotes controller
+    bin/rails generate controller Quote
