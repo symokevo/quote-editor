@@ -22,3 +22,7 @@ Create the Quote model
 
 Quotes controller
     bin/rails generate controller Quote
+
+IMPORTANT:
+- If you like using fixtures for your tests, run
+$ bin/rails db:fixtures:load
